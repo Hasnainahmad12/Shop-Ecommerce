@@ -1,0 +1,9 @@
+.pro__head{
+    @apply text-center text-6xl font-medium mt-2
+}
+
+@media (max-width:800px){
+    .pro__head{
+        @apply text-center text-4xl font-medium mt-5
+    }
+}

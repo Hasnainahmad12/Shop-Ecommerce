@@ -1,0 +1,102 @@
+.main__create{
+    height: 330px;
+    width: 850px;
+    background: rgb(225, 225, 225);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0px 10px 15px 1px gray;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.main__heading{
+    @apply text-3xl pt-7 pl-6 font-semibold font-serif
+}
+
+.google__image{
+    display: flex;
+    transform: translateX(10px);
+    /* color: gray; */
+}
+
+.input1{
+    height: 40px;
+    width: 380px;
+    padding-left: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15PX;
+    margin-left: 25px;
+}
+
+.input__address{
+    height: 40px;
+    width: 725px;
+    padding-left: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15PX;
+    margin-left: 25px;
+}
+
+.create__button{
+    height: 40px;
+    width: 600px;
+    background: rgb(66, 66, 236);
+    color: white;
+    margin-top: 25px;
+    margin-left: 90px;
+    font-size: 1.4em;
+    border-radius: 5px;
+}
+
+@media (max-width:800px){
+    .main__create{
+        height: 500px;
+        width: 320px;
+        background: rgb(225, 225, 225);
+        border-radius: 10px;
+        margin-top: 15%;
+        box-shadow: 0px 10px 15px 1px gray;
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center; */
+    }
+
+    .main__heading{
+        @apply text-2xl text-center pt-7 font-semibold font-serif
+    }  
+    
+    .input1{
+        height: 40px;
+        width: 250px;
+        padding-left: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+
+    .input__address{
+        height: 40px;
+        width: 250px;
+        padding-left: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+    
+    .create__button{
+        height: 50px;
+        width: 150px;
+        background: rgb(66, 66, 236);
+        color: white;
+        margin-top: 25px;
+        margin-left: 90px;
+        font-size: 1.4em;
+        border-radius: 5px;
+    }
+}
